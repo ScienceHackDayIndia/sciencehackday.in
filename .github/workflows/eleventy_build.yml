@@ -9,11 +9,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
-      - name: Build
-        uses: TartanLlama/actions-eleventy@v1.3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
         with:
-          install_dependencies: true
-          args: --pathprefix 2023
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Install packages
+        run: npm ci
+
+      - name: Run npm build
+        run: npm run build
+        
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
