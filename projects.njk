@@ -1,0 +1,17 @@
+---
+layout: page.njk
+title: Projects
+---
+<ul class="projects">
+  {% for item in projects %}
+  <li class="project-item">
+    <a {% if item.project_url %}href="{{ item.project_url }}"{% endif %}>
+      <h2 class="section-title">{{ item.title }}</h2>
+    </a>
+    <p>
+      {{ item.description }}
+    </p><br />
+    <p><b>Team:</b> <span class="project-contact">{{ item.creator | contactHTMLize | safe }}</span></p>
+  </li>
+  {% endfor %}
+</ul>

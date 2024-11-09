@@ -1,0 +1,55 @@
+---
+layout: page.njk
+title: Schedule
+
+---
+<div class="schedule">
+  {% for date in schedule %}
+    <button id="{{ date.key }}-btn"
+      type="button"
+      aria-expanded="true"
+      onclick="toggleDisclosure(this.id);"
+      class="schedule-date"
+      aria-controls="{{ date.key }}-panel">
+      <h2 class="section-title">
+        <span>
+          <svg xmlns="\http://www.w3.org/2000/svg&quot;" viewBox="0 0 80 80" focusable="false">
+            <path d="M70.3 13.8L40 66.3 9.7 13.8z"></path>
+          </svg>
+        </span>
+        {{ date.name }}
+      </h2>
+    </button>
+    <div id="{{ date.key }}-panel">
+      <ul class="date-agenda">
+        {% for item in date.schedule %}
+          <li class="date-agenda-item">
+            <span class="time">{{ item.time }}</span>
+            <span class="separator">:</span>
+            <span class="description">
+              <span>{{ item.description }}</span>
+              <span class="location">{{ item.location }}</span>
+            </span>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>
+
+<script>
+
+  function toggleDisclosure(btnID) {
+    // Get the button that triggered this
+    var theButton = document.getElementById(btnID);
+    // If the button is not expanded...
+    if (theButton.getAttribute("aria-expanded") == "false") {
+      // Now set the button to expanded
+      theButton.setAttribute("aria-expanded", "true");
+    // Otherwise button is not expanded...
+    } else {
+      // Now set the button to collapsed
+      theButton.setAttribute("aria-expanded", "false");
+    }
+  }
+</script>
