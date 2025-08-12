@@ -429,6 +429,7 @@ section > * + * {
 .site-footer a {
   color: var(--color-purple);
   font-size: 0.9rem;
+  font-weight: 500;
 }
 .site-link {
   display: flex;
