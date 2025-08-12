@@ -3,14 +3,14 @@ module.exports = [
         "name": "About",
         "url": "/about/"
     },
-    {
-        "name": "Schedule",
-        "url": "/schedule"
-    },
-    {
-        "name": "Projects",
-        "url": "/projects/"
-    },
+    // {
+    //     "name": "Schedule",
+    //     "url": "/schedule"
+    // },
+    // {
+    //     "name": "Projects",
+    //     "url": "/projects/"
+    // },
     {
         "name": "Workshop",
         "url": "/workshop/"
@@ -22,5 +22,9 @@ module.exports = [
     {
         "name": "CoC",
         "url": "/coc/"
+    },{
+        "name": "Register",
+        "type": "primary",
+        "url": ""
     },
 ];
