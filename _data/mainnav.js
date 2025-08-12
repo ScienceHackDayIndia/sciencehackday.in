@@ -22,9 +22,10 @@ module.exports = [
     {
         "name": "CoC",
         "url": "/coc/"
-    },{
-        "name": "Register",
-        "type": "primary",
-        "url": ""
     },
+    // {
+    //     "name": "Register",
+    //     "type": "primary",
+    //     "url": ""
+    // },
 ];
