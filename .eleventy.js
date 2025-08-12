@@ -1,4 +1,4 @@
-const markdownIt = require("markdown-it")();
+// const markdownIt = require("markdown-it")();
 
 module.exports = function(eleventyConfig) {
   // Output directory: _site
@@ -8,9 +8,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("CNAME");
 
   // Custom filters
-  eleventyConfig.addAsyncFilter("contactHTMLize", async function(value) {
-    return markdownIt.renderInline(value);
-  });
+  // eleventyConfig.addAsyncFilter("contactHTMLize", async function(value) {
+  //   return markdownIt.renderInline(value);
+  // });
 
   // return {
 	// 	pathPrefix: "/2024/",

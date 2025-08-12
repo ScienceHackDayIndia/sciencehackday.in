@@ -11,7 +11,7 @@ title: Projects
     <p>
       {{ item.description }}
     </p><br />
-    <p><b>Team:</b> <span class="project-contact">{{ item.creator | contactHTMLize | safe }}</span></p>
+    <p><b>Team:</b> <span class="project-contact">{{ item.creator }}</span></p>
   </li>
   {% endfor %}
 </ul>
