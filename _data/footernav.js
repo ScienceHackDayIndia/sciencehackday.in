@@ -1,5 +1,9 @@
 module.exports = [
     {
+        "name": "2024 website",
+        "url": "https://sciencehackdayindia.github.io/2024/"
+    },
+    {
         "name": "2023 website",
         "url": "https://sciencehackdayindia.github.io/2023/"
     },
