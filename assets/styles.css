@@ -249,7 +249,7 @@ a {
 section > * + * {
   margin-top: var(--spacing);
 }
-.site-content > *:not(.section-dark, .hero-section) {
+.site-content > *:not(.section-dark, .hero-section, .page-title-section) {
   max-width: 1440px;
   margin: auto;
 }
