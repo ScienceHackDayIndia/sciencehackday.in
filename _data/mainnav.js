@@ -23,9 +23,9 @@ module.exports = [
         "name": "CoC",
         "url": "/coc/"
     },
-    // {
-    //     "name": "Register",
-    //     "type": "primary",
-    //     "url": ""
-    // },
+    {
+        "name": "Register",
+        "type": "primary",
+        "url": "https://konfhub.com/science-hack-day-india-2025"
+    },
 ];
