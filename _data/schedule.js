@@ -1,7 +1,8 @@
 module.exports = [
     {
         "key": "day0",
-        "name": "8th Nov, Fri",
+        "name": "26th Dec, Fri",
+        "disable": false,
         "schedule": [
             {
                 "time": "11:00 AM",
@@ -11,91 +12,64 @@ module.exports = [
             {
                 "time": "6:30 PM",
                 "description": "Introductions/BoF",
-                "location": "Main Auditorium",
+                "location": "Makerspace Belgaum",
             },
         ]
     },
     {
         "key": "day1",
-        "name": "9th Nov, Sat",
+        "name": "27th Dec, Sat",
+        "disable": false,
         "schedule": [
-            {
-                "time": "6:00 AM",
-                "description": "Bird Watching",
-            },
-            {
-                "time": "8:00 AM",
-                "description": "Breakfast",
-                "location": "Adenine",
-            },
-            {
-                "time": "9:00 AM",
-                "description": "Registration",
-                "location": "Adenine",
-            },
             {
                 "time": "10:00 AM",
                 "description": "Inauguration",
-                "location": "Cytosine",
+                "location": "Main Hall",
             },
             {
                 "time": "10:30 AM",
                 "description": "Young Learner's Workshop Session 1",
-                "location": "Cytosine",
+                "location": "Main Hall",
             },
             {
                 "time": "10:30 AM",
-                "description": "Junion Hacker's Workshop Session 1",
-                "location": "Guanine",
+                "description": "Mentors and hackers form teams",
+                "location": "Cafeteria",
             },
             {
-                "time": "12:00 PM",
-                "description": "Paper Copter Workshop",
-                "location": "Cytosine",
+                "time": "11:30 AM",
+                "description": "Experiments with SEELab 3.0",
+                "location": "Main Hall",
+            },
+            {
+                "time": "11:30 AM",
+                "description": "Young Learners: Fun with Static Electricity",
+                "location": "Yoga Area",
             },
             {
                 "time": "1:00 PM",
                 "description": "Lunch",
-                "location": "Adenine",
+                "location": "Main Hall",
             },
             {
                 "time": "2:00 PM",
-                "description": "Paper Making",
-                "location": "Cytosine",
+                "description": "DIY Science Toy",
+                "location": "Main Hall",
             },
             {
-                "time": "2:00 PM",
-                "description": "3D Printing demo",
-                "location": "Guanine",
-            },
-            {
-                "time": "2:00 PM",
-                "description": "Soap Making",
-                "location": "Adenine",
-            },
-            {
-                "time": "3:00 PM",
-                "description": "Young Learner's Workshop Session 2",
-                "location": "Cytosine",
-            },
-            {
-                "time": "3:00 PM",
-                "description": "Junior Hacker's Workshop Session 2",
-                "location": "Guanine",
+                "time": "3:30 PM",
+                "description": "Drone flying demos",
+                "location": "Lawn / Play area",
             },
             {
                 "time": "4:30 PM",
                 "description": "High tea",
-                "location": "Adenine",
+                "location": "Main Hall",
             },
             {
                 "time": "5:00 PM",
-                "description": "DIY Magic Bank",
-                "location": "Cytosine",
-            },
-            {
-                "time": "5:30 PM",
-                "description": "Interaction with Hackers",
+                "description": "Jus Drums",
+                "location": "Main Hall",
             },
             {
                 "time": "6:30 PM",
@@ -108,14 +82,15 @@ module.exports = [
                 "location": "Adenine",
             },
             {
-                "time": "10:00 PM",
+                "time": "10:30 PM",
                 "description": "Star gazing, Laser Show",
             },
         ]
     },
     {
         "key": "day2",
-        "name": "10th Nov, Sun",
+        "name": "28th Dec, Sun",
+        "disable": true,
         "schedule": [
             {
                 "time": "6:00 AM",
